@@ -1,4 +1,4 @@
-package com.jiazhi.study.oneconsume;
+package com.jiazhi.study.rabbitmq.oneconsume;
 
 import com.rabbitmq.client.*;
 
