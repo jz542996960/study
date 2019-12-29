@@ -1,4 +1,4 @@
-package com.jiazhi.study.multconsume;
+package com.jiazhi.study.rabbitmq.multconsume;
 
 import com.jiazhi.study.tool.mq.RabbitMqTool;
 import com.rabbitmq.client.*;
@@ -39,7 +39,6 @@ public class Consumer2 {
         channel.basicConsume(TASK_QUEUE_NAME,autoAck,consumer);
 
         while (true){
-
         }
     }
 }
