@@ -39,7 +39,6 @@ public class Consumer2 {
         channel.basicConsume(TASK_QUEUE_NAME,autoAck,consumer);
 
         while (true){
-
         }
     }
 }
